@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: outfit_f;
 }
 
+.content, .hero, .main-header, .gallery > * {
+  will-change: transform;
+}
+
 body {
   background-image: url(../img/bg.jpg);
   background-size: 50px;
@@ -37,7 +41,7 @@ body {
   width: calc(var(--index) * 36);
   position: absolute;
   left: 37vw;
-  top: 4vh;
+  top: 12vh;
   z-index: -1;
 }
 
