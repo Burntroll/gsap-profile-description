@@ -10,50 +10,59 @@
     <script src="./libs/gsap/ScrollSmoother.min.js" defer></script>
     <script src="./js/app.js" defer></script>
 
-    <title>Fashion Week</title>
+    <title>Art Week</title>
   </head>
   <body>
     <div class="wrapper">
       <div class="content">
+        <header class="hero-section">
+          <img
+            data-speed=".6"
+            class="hero"
+            src="./img/hero.png"
+            alt="hero photo"
+          />
+          <div class="container">
+            <div data-speed=".73" class="main-header">
+              <h1 class="main-title">Art Week</h1>
+            </div>
+          </div>
+        </header>
 
-    <header class="hero-section">
-      <img data-speed=".6" class="hero" src="./img/hero.png" alt="hero photo" />
-      <div class="container">
-        <div data-speed=".73" class="main-header">
-          <h1 class="main-title">Art Week</h1>
+        <div class="portfolio">
+          <div class="container">
+            <main class="gallery">
+              <div data-speed=".9" class="gallery__left">
+                <img class="gallery__item" src="./img/work/1.jpg" alt="work1" />
+                <img class="gallery__item" src="./img/work/2.jpg" alt="work2" />
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">Some text will be written here</h2>
+                  <p class="text-block__p">
+                    Some description about the work that was done during this
+                    project and all people involved.
+                  </p>
+                </div>
+                <img class="gallery__item" src="./img/work/6.jpg" alt="work6" />
+              </div>
+              <div data-speed="1.1" class="gallery__right">
+                <div class="text-block gallery__item">
+                  <h2 class="text-block__h">Some text will be written here</h2>
+                  <p class="text-block__p">
+                    Some description about the work that was done during this
+                    project and all people involved.
+                  </p>
+                </div>
+
+                <img class="gallery__item" src="./img/work/4.jpg" alt="work4" />
+                <img class="gallery__item" src="./img/work/5.jpg" alt="work3" />
+                <img class="gallery__item" src="./img/work/3.jpg" alt="work5" />
+              </div>
+            </main>
+          </div>
         </div>
-      </div>
-    </header>
-
-    <div class="portfolio">
-      <div class="container">
-        <main class="gallery">
-          <div data-speed=".9" class="gallery__left">
-
-            <img class="gallery__item" src="./img/work/1.jpg" alt="work1">
-            <img class="gallery__item" src="./img/work/2.jpg" alt="work2">
-            <div class="text-block gallery__item">
-              <h2 class="text-block__h">Some text will be written here</h2>
-              <p class="text-block__p">Some description about the work that was done during this project and all people involved.</p>
-            </div>
-            <img class="gallery__item" src="./img/work/6.jpg" alt="work6">
-
-          </div>
-          <div data-speed="1.1" class="gallery__right">
-
-            <div class="text-block gallery__item">
-              <h2 class="text-block__h">Some text will be written here</h2>
-              <p class="text-block__p">Some description about the work that was done during this project and all people involved.</p>
-            </div>
-
-            <img class="gallery__item" src="./img/work/4.jpg" alt="work4">
-            <img class="gallery__item" src="./img/work/5.jpg" alt="work3">
-            <img class="gallery__item" src="./img/work/3.jpg" alt="work5">
-
-          </div>
-        </main>
-      </div>
-    </div>
+        <div class="wrapper-copyright">
+          <div class="copyright">© Francisco Silva</div>
+        </div>
       </div>
     </div>
   </body>
